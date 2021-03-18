@@ -12,5 +12,12 @@ include "./include/footer.php";
 <li><a href="#">ça va toi</a>
 </li>
 <li><a href="#">et alors</a></li>
+<li><a href="#">quoi de neuf</a></li>
+<li class"deroulant>
+    <a href="#">pouet</a>
+    <ul class="sous">
+        <a href="#">pizza</a>
+    </ul>
+</li>
 </ul>
 </nav>
