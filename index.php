@@ -7,3 +7,10 @@ include "./include/header.php";
 <?php
 include "./include/footer.php";
 ?>
+<nav>
+<ul>
+<li><a href="#">ça va toi</a>
+</li>
+<li><a href="#">et alors</a></li>
+</ul>
+</nav>
