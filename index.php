@@ -9,15 +9,14 @@ include "./include/footer.php";
 ?>
 <nav>
 <ul>
-<li><a href="#">ça va toi</a>
-</li>
+<li><a href="#">ça va toi</a></li>
 <li><a href="#">et alors</a></li>
 <li><a href="#">quoi de neuf</a></li>
 <li class"deroulant>
     <a href="#">pouet</a>
     <ul class="sous">
-        <a href="#">pizza</a>
-        <a href="#">c'est la fête à neuneu</a>
+        <li><a href="#">pizza</a></li>
+        <li><a href="#">sans fromage</a></li>
     </ul>
 </li>
 </ul>
