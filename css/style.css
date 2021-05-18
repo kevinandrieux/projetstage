@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  font-family: Arial Rounded MT;
+  color: white;
+}
+body {
+    background-color: #484748;
+}
+.accueil {
+    
+    font-family: Arial Rounded MT;
+    color: white;
+ 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.logo1 {
+    width:106px ;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.logo2 {
+    width:106px ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+.logo3 {
+    width:106px ;
+    position: relative;
+    top:67px ;
+    right: 0;
+    z-index: 9999;
+}
+.logo4 {
+    width:106px ;
+    position: relative;
+    bottom: -67px;
+    left: 84%;
+    z-index: 9999;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #019bb5;
+    position: sticky;
+    top: 0px;
+    padding: 12px 0px;
+}
+
+
+.conteneur-nav{
+    position: absolute;
+    width: 100%;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav label{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #019bb5;
+}
+nav ul{
+    display: none;
+    list-style-type: none;
+    background-color: #019bb5;
+}
+nav input[type=checkbox]:checked + ul{
+    display: flex;
+    flex-flow : column wrap;
+}
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+}
+nav > div > ul > li > a{
+    color: white;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+.sous{
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1000;
+}
+
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    background-color: RGBa(200,200,200,0.8);
+}
+.fas {
+    font-size: 31px;
+}
+
+@media screen and (min-width: 980px){
+    .conteneur-nav{
+        position: static;
+    }
+    nav label {
+        width: 100%;
+    }
+    nav label, nav input{
+        display: none;
+    }
+    nav input[type=checkbox]:checked + ul, nav ul{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #019bb5;
+    }
+    nav ul li{
+        position: relative;
+    }
+    nav > div > ul > li > a{
+        color: white;
+    }
+    nav a{
+        border-bottom: 2px solid transparent;
+    }
+   
+    .sous{
+        display: none;
+        box-shadow: 0px 1px 2px #CCC;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        margin-top: 12px;
+    }
+  
+    nav > div > ul li:hover .sous{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sous a{
+        border-bottom: none;
+        background-color: white;
+    }
+    .sous a:hover{
+        border-bottom: none;
+        background-color: RGBa(200,200,200,0.1);
+    }
+    
+
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 12px;
+
+}
+
+
+.equipe {
+    
+    border-radius: 12px 12px 12px 12px;
+    width: 251px;
+    box-shadow: 12px 12px 12px 12px #484748;;
+    
+}
+.clubimg {
+    width: 251px;
+    border-radius: 12px 12px 0px 0px;
+    height: 188px;
+
+}
+.club1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipe, a {
+    
+    text-decoration: none;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 71%;
+}
+@media all and (min-width: 320px) and (max-width: 670px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .equipe {
+        margin-top: 30px;
+    }
+}
+.equipe {
+    
+    -webkit-transform: scale(1);
+	transform: scale();
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.equipe:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: gray;
+}
+.soustitre {
+    padding: 30px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.m1 {
+    width: 60vh;
+    padding: 12px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    bottom: 0px;
+    background-color: #019bb5;
+    
+   
+}
