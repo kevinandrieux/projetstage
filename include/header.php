@@ -33,8 +33,8 @@
         </ul>
     </div>
 </nav>
-<img class="logo1" src="./img/le lezard.PNG" alt="">
-<img class='logo2'src="./img/le lezard.PNG" alt="">
+<a href="./index.php"><img class="logo1" src="./img/le lezard.PNG" alt=""></a>
+<a href="./index.php"><img class='logo2'src="./img/le lezard.PNG" alt=""></a>
 
 <body>
   
