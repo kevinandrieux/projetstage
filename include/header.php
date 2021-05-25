@@ -17,24 +17,24 @@
         <ul>
             <li><a href="./auto.php">Automobile</a></li>
             <li class='deroulant'><a href="./vetement.php">Vetement</a>
-                <!-- <ul class="sous">
+                <ul class="sous">
                     <li><a href="#">Travail</a></li>
                     <li><a href="#">Sport</a></li>
                     <li><a href="#">Normal</a></li>
-                </ul> -->
+                </ul>
             </li>
             <li class='deroulant'><a href="./divers.php">Autre</a>
-                <!-- <ul class="sous">
+                <ul class="sous">
                     <li><a href="#">Travail</a></li>
                     <li><a href="#">Sport</a></li>
                     <li><a href="#">Normal</a></li>
-                </ul> -->
+                </ul>
             </li>
         </ul>
     </div>
 </nav>
-<a href="./index.php"><img class="logo1" src="./img/le lezard.PNG" alt=""></a>
-<a href="./index.php"><img class='logo2'src="./img/le lezard.PNG" alt=""></a>
+<img class="logo1" src="./img/le lezard.PNG" alt="">
+<img class='logo2'src="./img/le lezard.PNG" alt="">
 
 <body>
   
